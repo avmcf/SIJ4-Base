@@ -1,0 +1,16 @@
+0001
+LOCAL
+LINUX
+http://192.168.1.30:8080
+/Users/avmcf/sandbox/logs                                   -> LOGFOLDER: Pasta local para gravar Logs
+/User Homes/sij/EdicoesSIJ                                  -> PASTACARREGAMENTO: Pasta alfresco carregamento de publicacoes e entrada para o clip
+/Sites/jairo-aquino-advogados/documentLibrary/Publicacoes   -> PASTAPUBLICACOES: Pasta publicacoes alfrecsco
+/Sites/jairo-aquino-advogados/documentLibrary/Tokens        -> PASTATOKENS: Pasta tokens alfresco
+/Users/avmcf/sandbox/publicacoes                            -> PASTASAIDA: Pasta local onde split gravar publicações
+/Users/avmcf/sandbox/entrada                                -> PASTAORIGEM Pasta local origem onde split lê edicoes.pdf
+/Users/avmcf/sandbox/edicoes                                -> PASTAEDICOES: Pasta local onde split processa edicoes.pdf
+Publicação                                                  -> TIPODOCUMENTO: Tipo documento alfresco (Publicacao)
+BATCH                                                       -> TIPOPROCESSAMENTO: Tipo processamento
+texto                                                       -> TIPOARQUIVOSAIDA: Tipo arq saida (texto ou PDF)
+/User Homes/sij/EdicoesPDF                                  -> PASTADEEDICOES: Pasta alfresco onde split lê edicoes.pdf (modo não SERVIDOR)
+/User Homes/sij/sij/Relatorios                              -> PASTARELATORIOS: Pasta alfresco para os relatorios de processamento
